@@ -1,0 +1,31 @@
+{
+  "name": "time-less",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "minimal time helpers",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json",
+    "check_types": "tsc --noEmit --project .",
+    "pretest": "tsc --build tsconfig.test.json",
+    "test": "node --test --test-reporter spec"
+  },
+  "keywords": [
+    "time",
+    "date"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fibo/time-less.git"
+  },
+  "author": "Gianluca Casati (https://fibo.github.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.5.1"
+  }
+}
