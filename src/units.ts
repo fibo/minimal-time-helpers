@@ -1,4 +1,4 @@
-import { isLiteralType } from "./type-utils.js"
+import { isLiteralType } from "minimal-type-guard-helpers"
 
 import { Time } from "./time.js"
 

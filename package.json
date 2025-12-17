@@ -29,5 +29,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.5.1"
+  },
+  "dependencies": {
+    "minimal-type-guard-helpers": "^0.3.0"
   }
 }

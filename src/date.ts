@@ -1,5 +1,5 @@
+import { objectTypeGuard } from "minimal-type-guard-helpers"
 import { Interval } from "./interval.js"
-import { objectTypeGuard } from "./type-utils.js"
 
 export const isInvalidDate = (arg: Date) =>
 	arg instanceof Date && arg.toString() === "Invalid Date"

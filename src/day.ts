@@ -1,5 +1,4 @@
-import { objectTypeGuard } from "./type-utils.js"
-
+import { objectTypeGuard } from "minimal-type-guard-helpers"
 import { isInvalidDate } from "./date.js"
 import { Interval } from "./interval.js"
 
